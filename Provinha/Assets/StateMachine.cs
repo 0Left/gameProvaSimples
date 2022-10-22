@@ -16,7 +16,7 @@ public class StateMachine : MonoBehaviour
     {
         foreach (var porta in portas)
         {
-            Console.WriteLine(porta.pergunta.questionHeader);
+            Debug.Log("this: " + porta.pergunta.questionHeader);
         }
     }
 }
